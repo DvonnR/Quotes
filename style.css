@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Crimson Text', serif;;
+}
+body{
+    background-image: url(/img/ocean.jpg);
+    background-repeat:no-repeat;
+}
+  /* PHONE VERSION */
+  @media only screen and (min-width: 320px) {
+   .container{
+    background-color: rgb(255, 255, 255, .8);
+    width:320px;
+    height:400px;
+    text-align:center;
+    margin:150px auto 0 auto;
+    border-radius:10px;
+    box-shadow:0px 0px 8px rgb(53, 53, 53);
+   }
+   .innerContainer{
+   
+    position:absolute;
+    width:300px;
+    height:100px;
+    margin:50px 0 0 10px; 
+   }
+   .speaker,.author{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   .speaker{
+    
+    padding:10px;
+   }
+   .author{
+    margin:10px 0 0 0;
+   }
+   button{
+    border-radius:10px;
+    border:none;
+    font-size: 20px;
+    padding:20px;
+    background-color:rgb(205, 219, 250);
+    
+   }
+   button:hover{
+    background-color:rgb(185, 205, 248);
+    text-decoration: underline;
+   }
+   .holder{
+    
+    margin:40px 0 0 0 ;
+   }
+  }
+
+  /* TABLET VERSION */
+  @media only screen and (min-width: 768px) {
+    .container{
+        background-color: rgb(255, 255, 255, .8);
+        width:500px;
+        height:420px;
+        text-align:center;
+        margin:100px auto 0 auto;
+        border-radius:10px;
+        box-shadow:0px 0px 8px rgb(53, 53, 53);
+       }
+       .innerContainer{
+        
+        margin:50px 0 0 100px;
+
+       }
+       
+  }
+
+  /* DESKTOP VERSION */
+  @media only screen and (min-width: 980px) {
+    .container{
+        background-color: rgb(255, 255, 255, .8);
+        width:700px;
+        height:500px;
+        text-align:center;
+        margin:100px auto 0 auto;
+        border-radius:10px;
+        box-shadow:0px 0px 8px rgb(53, 53, 53);
+       }
+       .innerContainer{
+        
+        margin:100px 0 0 190px;
+
+       }
+  }
